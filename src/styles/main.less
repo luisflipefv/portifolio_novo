@@ -3,10 +3,6 @@
 @breakpointMobile: ~"(max-width:767px)"; //scaping - é substituido quando o código é compilado pelo LESS
 @breakpointTablet: ~"(min-width:768px) and (max-width:1023px)";
 
-.marginBottom8 {
-  margin-bottom: 8px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +37,7 @@ li {
 
 header {
   padding-bottom: 24px;
+  margin-top: 180px;
 
   .profile-avatar {
     display: block;
@@ -54,11 +51,11 @@ header {
   text-align: center;
   &-tittle {
     font-size: 16px;
-    .marginBottom8();
+    margin-bottom: 8px;
   }
   &-subtittle {
     font-size: 14px;
-    .marginBottom8();
+    margin-bottom: 8px;
   }
   &-description {
     font-size: 14px;
